@@ -40,7 +40,7 @@ def enviar_telegram(mensaje):
 
 def conectar_sheets():
     """Se conecta a Google Sheets y devuelve la hoja de cálculo."""
-    creds = ServiceAccountCredentials.from_json_keyfile_name("credentials.json", SCOPES)
+    creds = ServiceAccountCredentials.from_json_keyfile_name("credenciales.json", SCOPES)
     cliente = gspread.authorize(creds)
     return cliente.open(NOMBRE_PLANILLA).sheet1
 
