@@ -14,7 +14,7 @@ from oauth2client.service_account import ServiceAccountCredentials
 from datetime import datetime
 
 # --- CONFIGURACIÓN DE TELEGRAM ---
-TELEGRAM_TOKEN = "8658903767:AAElo1E8owhyDASHgBHUfeMR03an1nJgLfk"
+TELEGRAM_TOKEN = "865890376:AAE1o1E8owhyDASHgBHUfEMR03an1nJgLfk"
 TELEGRAM_CHAT_ID = "8800841732"
 
 # --- CONFIGURACIÓN DE GOOGLE SHEETS ---
